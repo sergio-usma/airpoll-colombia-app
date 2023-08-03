@@ -1,18 +1,18 @@
-import City from './City';
+import Locations from './Locations';
 import styles from '../styles/feed.module.css';
 
 export default function Feed() {
   return (
     <div className={styles.wrapper}>
-      <City />
-      <City />
-      <City />
-      <City />
-      <City />
-      <City />
-      <City />
-      <City />
-      <City />
+      <Locations />
+      <Locations />
+      <Locations />
+      <Locations />
+      <Locations />
+      <Locations />
+      <Locations />
+      <Locations />
+      <Locations />
     </div>
   );
 }
