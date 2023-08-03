@@ -8,3 +8,22 @@
   padding: 2rem;
   margin: auto;
 }
+
+.searchbar {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+input {
+  width: 90vw;
+  max-width: 500px;
+  padding: 0.5rem;
+  margin: 1rem auto 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
