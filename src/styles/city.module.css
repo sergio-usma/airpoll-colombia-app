@@ -1,0 +1,135 @@
+.city__card {
+  width: 90vw;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  margin: 5vh auto;
+  background-color: #ec4c8a;
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.4);
+}
+
+.city__header {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.city__info {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.city__name {
+  margin: 1rem 0 1.4rem 1.3rem;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: right;
+  line-height: 0.8;
+}
+
+.city__image {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.state__name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #ec4c8a;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.city__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  border-radius: 1rem;
+}
+
+.city__aqi {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  color: #ec4c8a;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.table__header {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+  margin: 1.3rem auto 0.7rem auto;
+}
+
+.city__data {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+table {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+tbody {
+  flex-basis: 46%;
+}
+
+td {
+  padding: 0.2rem 0.5rem;
+}
+
+@media (max-width: 600px) {
+  tbody {
+    flex-basis: 100%;
+  }
+
+  td {
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+  }
+}
