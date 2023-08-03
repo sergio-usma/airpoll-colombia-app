@@ -8,30 +8,21 @@
   padding: 2rem 2.5rem;
   border-radius: 1rem;
   margin: 5vh auto;
-  background-color: #ec4c8a;
+  background-image: linear-gradient(145deg, #eb5194 0%, #ec4c8a 74%);
   box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.4);
 }
 
-.city__header {
+.city__title {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: flex-start;
-  padding-left: 1.1rem;
-  margin-bottom: 1rem;
-}
-
-.city__info {
-  width: 100%;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  padding-left: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 .city__name {
-  margin: 1rem 0 1.4rem 1.3rem;
   font-size: 4rem;
   font-weight: 900;
   color: #fff;
@@ -57,7 +48,7 @@
   border-radius: 5px;
   background-color: #fff;
   color: #ec4c8a;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 900;
   text-align: center;
 }
@@ -74,12 +65,11 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 75%;
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 0.8rem;
   background-color: #fff;
   color: #ec4c8a;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -91,7 +81,7 @@
   font-size: 1.8rem;
   text-align: center;
   color: #fff;
-  margin: 1.3rem auto 0.7rem auto;
+  margin: 1.5rem auto 1rem auto;
 }
 
 .city__data {
@@ -108,7 +98,7 @@ table {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 4%;
   color: #fff;
@@ -116,14 +106,43 @@ table {
 }
 
 tbody {
-  flex-basis: 46%;
+  flex-basis: 48%;
+}
+
+tr {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 td {
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0;
+}
+
+td:nth-child(even) {
+  flex-basis: 35%;
+  text-align: right;
+}
+
+td:nth-child(odd) {
+  flex-basis: 65%;
 }
 
 @media (max-width: 600px) {
+  .city__name {
+    font-size: 3rem;
+  }
+
+  .state__name {
+    font-size: 1.4rem;
+  }
+
+  .city__aqi {
+    font-size: 1.3rem;
+  }
+
   tbody {
     flex-basis: 100%;
   }
