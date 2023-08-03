@@ -12,3 +12,10 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+
+.card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
