@@ -5,11 +5,9 @@ import styles from '../styles/city.module.css';
 export default function City() {
   return (
     <div className={styles.city__card}>
-      <div className={styles.city__header}>
-        <FaMapLocationDot fontSize="5.5rem" color="#fff" />
-        <div className={styles.city__info}>
-          <h2 className={styles.city__name}>Santa Marta</h2>
-        </div>
+      <div className={styles.city__title}>
+        <FaMapLocationDot fontSize="4rem" color="#fff" />
+        <h2 className={styles.city__name}>Santa Marta</h2>
       </div>
       <div className={styles.city__image}>
         <p className={styles.state__name}>Magdalena, Colombia</p>
@@ -23,31 +21,31 @@ export default function City() {
           <tbody>
             <tr>
               <td>Particulates PM2.5:</td>
-              <td>2.5</td>
+              <td>2.5 μg/m3</td>
             </tr>
             <tr>
               <td>Carbon:</td>
-              <td>2.5</td>
+              <td>2.5 μg/m3</td>
             </tr>
             <tr>
               <td>Nitrogen Dioxide:</td>
-              <td>2.5</td>
+              <td>2.5 μg/m3</td>
             </tr>
           </tbody>
 
           <tbody>
             <tr>
               <td>Nitrogen Monoxide:</td>
-              <td>2.5</td>
+              <td>2.5 μg/m3</td>
             </tr>
 
             <tr>
               <td>Sulphur Dioxide:</td>
-              <td>2.5</td>
+              <td>2.5 μg/m3</td>
             </tr>
             <tr>
               <td>Ozone:</td>
-              <td>2.5</td>
+              <td>2.5 μg/m3</td>
             </tr>
           </tbody>
         </table>
