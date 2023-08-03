@@ -1,7 +1,7 @@
-import City from '../components/City';
-import styles from '../styles/locations.module.css';
+import City from './City';
+import styles from '../styles/feed.module.css';
 
-export default function Locations() {
+export default function Feed() {
   return (
     <div className={styles.wrapper}>
       <City />
