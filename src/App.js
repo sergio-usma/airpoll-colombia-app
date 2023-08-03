@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Home from './pages/Home';
-import Locations from './pages/Locations';
+import Feed from './components/Feed';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Header />
       <div>
         <Home />
-        <Locations />
+        <Feed />
       </div>
     </>
   );
