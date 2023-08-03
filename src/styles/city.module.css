@@ -1,0 +1,156 @@
+.city__card {
+  width: 90vw;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  margin: 5vh auto;
+  background-image: linear-gradient(145deg, #eb5194 0%, #ec4c8a 74%);
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.4);
+}
+
+.city__title {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.city__name {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: right;
+  line-height: 0.8;
+}
+
+.city__image {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transform: rotate(0.3deg);
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+.state__name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #ec4c8a;
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.city__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  border-radius: 1rem;
+}
+
+.city__aqi {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  color: #ec4c8a;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.table__header {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+  margin: 1.5rem auto 1rem auto;
+}
+
+.city__data {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+table {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4%;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+tbody {
+  flex-basis: 48%;
+}
+
+tr {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+td {
+  padding: 0.2rem 0;
+}
+
+td:nth-child(even) {
+  flex-basis: 35%;
+  text-align: right;
+}
+
+td:nth-child(odd) {
+  flex-basis: 65%;
+}
+
+@media (max-width: 600px) {
+  .city__name {
+    font-size: 3rem;
+  }
+
+  .state__name {
+    font-size: 1.4rem;
+  }
+
+  .city__aqi {
+    font-size: 1.3rem;
+  }
+
+  tbody {
+    flex-basis: 100%;
+  }
+
+  td {
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+  }
+}

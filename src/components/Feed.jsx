@@ -13,6 +13,7 @@ export default function Feed() {
       <Locations />
       <Locations />
       <Locations />
+      <Locations />
     </div>
   );
 }
