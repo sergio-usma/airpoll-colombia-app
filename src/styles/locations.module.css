@@ -23,6 +23,10 @@
   height: 100%;
 }
 
+.card__details:hover {
+  background-color: rgba(216, 27, 96, 0.8);
+}
+
 .card__title {
   font-size: 1.6rem;
   font-weight: 700;

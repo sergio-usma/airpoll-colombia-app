@@ -5,6 +5,7 @@ table {
   justify-content: space-between;
   align-items: center;
   gap: 4%;
+  margin: 1rem auto 1.5rem auto;
   color: #fff;
   font-size: 1.6rem;
 }
@@ -18,7 +19,15 @@ tr {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.5rem;
+  padding: 0.6rem 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #ec407a;
+}
+
+tr:hover {
+  background-color: #d81b60;
 }
 
 td {
@@ -44,7 +53,7 @@ td:nth-child(odd) {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin: 1rem 0;
+  margin: 0.5rem auto 2.5rem auto;
   border: none;
   cursor: pointer;
 }

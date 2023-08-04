@@ -23,7 +23,7 @@ export default function City() {
   return (
     <div className={styles.city__card}>
       <div className={styles.city__title}>
-        <FaMapLocationDot fontSize="4rem" color="#fff" />
+        <FaMapLocationDot />
         <h2 className={styles.city__name}>{currentCity[0].capital}</h2>
       </div>
       <div className={styles.city__image}>
