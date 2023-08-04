@@ -5,19 +5,16 @@ import { useEffect, useRef } from 'react';
 import hero from '../assets/locations/santa_marta/santamarta_col_sm.jpg';
 import styles from '../styles/city.module.css';
 import { getCityDetail } from '../redux/getCitiesSlice';
+import ParametersAQI from '../components/ParametersAQI';
 
 export default function City() {
   const { city } = useParams();
-  const { cities } = useSelector((state) => state.details);
+  const { cities, details, isLoading } = useSelector((state) => state.details);
   const dispatch = useDispatch();
-
   const coordinates = useRef();
-
   const currentCity = cities.filter((location) => location.capital === city);
 
-  currentCity.forEach((location) => {
-    coordinates.current = [location.latitude, location.longitude];
-  });
+  coordinates.current = [currentCity[0].latitude, currentCity[0].longitude];
 
   useEffect(() => {
     dispatch(getCityDetail(coordinates.current));
@@ -36,50 +33,29 @@ export default function City() {
           src={hero}
           alt={`This is a landscape from ${currentCity[0].department}, Colombia`}
         />
-        <h3 className={styles.city__aqi}>Air Quality Index:</h3>
+
       </div>
 
       <div className={styles.city__data}>
         <h4 className={styles.table__header}>Air Quality Parameters</h4>
-        <table>
-          <tbody>
-            <tr>
-              <td>Ammonia:</td>
-              <td> μg/m3</td>
-            </tr>
-            <tr>
-              <td>Carbon:</td>
-              <td> μg/m3</td>
-            </tr>
-            <tr>
-              <td>Nitrogen Dioxide:</td>
-              <td> μg/m3</td>
-            </tr>
-            <tr>
-              <td>Nitrogen Monoxide:</td>
-              <td> μg/m3</td>
-            </tr>
-          </tbody>
-
-          <tbody>
-            <tr>
-              <td>Ozone:</td>
-              <td> μg/m3</td>
-            </tr>
-            <tr>
-              <td>Particulates PM2.5:</td>
-              <td> μg/m3</td>
-            </tr>
-            <tr>
-              <td>Particulates PM10:</td>
-              <td> μg/m3</td>
-            </tr>
-            <tr>
-              <td>Sulphur Dioxide:</td>
-              <td> μg/m3</td>
-            </tr>
-          </tbody>
-        </table>
+        {isLoading ? (
+          <p>Loading...</p>
+        ) : (
+          details.map((location) => (
+            <ParametersAQI
+              key={crypto.randomUUID()}
+              aqi={location.main.aqi}
+              co={location.components.co}
+              no={location.components.no}
+              no2={location.components.no2}
+              o3={location.components.o3}
+              so2={location.components.so2}
+              pm25={location.components.pm2_5}
+              pm10={location.components.pm10}
+              nh3={location.components.nh3}
+            />
+          ))
+        )}
       </div>
     </div>
   );
