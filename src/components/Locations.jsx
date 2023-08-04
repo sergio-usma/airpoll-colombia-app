@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { BsFillPeopleFill } from 'react-icons/bs';
 import PropTypes from 'prop-types';
 import locationImg from '../assets/locations/santa_marta/santamarta_col_sm.jpg';

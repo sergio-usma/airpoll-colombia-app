@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FaMapLocationDot } from 'react-icons/fa6';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
