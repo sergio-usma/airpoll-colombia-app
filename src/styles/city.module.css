@@ -1,6 +1,6 @@
 .city__card {
   width: 90vw;
-  max-width: 500px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,22 +64,6 @@
   border-radius: 1rem;
 }
 
-.city__aqi {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 0.5rem 1.5rem;
-  border-radius: 0.8rem;
-  background-color: #fff;
-  color: #ec4c8a;
-  font-size: 1.3rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 2rem;
-  cursor: pointer;
-}
-
 .table__header {
   font-size: 1.8rem;
   text-align: center;
@@ -97,42 +81,6 @@
   font-size: 1.6rem;
 }
 
-table {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 4%;
-  color: #fff;
-  font-size: 1.6rem;
-}
-
-tbody {
-  flex-basis: 48%;
-}
-
-tr {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.5rem;
-}
-
-td {
-  padding: 0.2rem 0;
-}
-
-td:nth-child(even) {
-  flex-basis: 35%;
-  text-align: right;
-}
-
-td:nth-child(odd) {
-  flex-basis: 65%;
-}
-
 @media (max-width: 600px) {
   .city__name {
     font-size: 3rem;
@@ -140,18 +88,5 @@ td:nth-child(odd) {
 
   .state__name {
     font-size: 1.4rem;
-  }
-
-  .city__aqi {
-    font-size: 1.3rem;
-  }
-
-  tbody {
-    flex-basis: 100%;
-  }
-
-  td {
-    width: 100%;
-    padding: 0.2rem 0.5rem;
   }
 }
