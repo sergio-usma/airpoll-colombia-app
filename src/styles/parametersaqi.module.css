@@ -1,4 +1,4 @@
-table {
+.table {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -10,11 +10,11 @@ table {
   font-size: 1.6rem;
 }
 
-tbody {
+.tbody {
   flex-basis: 48%;
 }
 
-tr {
+.tr {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -22,24 +22,24 @@ tr {
   padding: 0.6rem 1rem;
 }
 
-tr:nth-child(even) {
+.tr:nth-child(even) {
   background-color: #ec407a;
 }
 
-tr:hover {
+.tr:hover {
   background-color: #d81b60;
 }
 
-td {
+.td {
   padding: 0.2rem 0;
 }
 
-td:nth-child(even) {
+.td:nth-child(even) {
   flex-basis: 35%;
   text-align: right;
 }
 
-td:nth-child(odd) {
+.td:nth-child(odd) {
   flex-basis: 65%;
 }
 
@@ -59,11 +59,11 @@ td:nth-child(odd) {
 }
 
 @media (max-width: 600px) {
-  tbody {
+  .tbody {
     flex-basis: 100%;
   }
 
-  td {
+  .td {
     width: 100%;
     padding: 0.2rem 0.5rem;
   }
