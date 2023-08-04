@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: #fa4f90;
 }
 
@@ -13,7 +13,7 @@ header {
   color: #fff;
 }
 
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
