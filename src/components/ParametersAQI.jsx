@@ -31,42 +31,42 @@ export default function ParametersAQI({
 
   return (
     <>
-      <table className={styles}>
-        <tbody>
-          <tr>
-            <td>Ammonia:</td>
-            <td>{`${nh3} μg/m3`}</td>
+      <table className={styles.table}>
+        <tbody className={styles.tbody}>
+          <tr className={styles.tr}>
+            <td className={styles.td}>Ammonia:</td>
+            <td className={styles.td}>{`${nh3} μg/m3`}</td>
           </tr>
-          <tr>
-            <td>Carbon:</td>
-            <td>{`${co} μg/m3`}</td>
+          <tr className={styles.tr}>
+            <td className={styles.td}>Carbon:</td>
+            <td className={styles.td}>{`${co} μg/m3`}</td>
           </tr>
-          <tr>
-            <td>Nitrogen Dioxide:</td>
-            <td>{`${no2} μg/m3`}</td>
+          <tr className={styles.tr}>
+            <td className={styles.td}>Nitrogen Dioxide:</td>
+            <td className={styles.td}>{`${no2} μg/m3`}</td>
           </tr>
-          <tr>
-            <td>Nitrogen Monoxide:</td>
-            <td>{`${no} μg/m3`}</td>
+          <tr className={styles.tr}>
+            <td className={styles.td}>Nitrogen Monoxide:</td>
+            <td className={styles.td}>{`${no} μg/m3`}</td>
           </tr>
         </tbody>
 
-        <tbody>
-          <tr>
-            <td>Ozone:</td>
-            <td>{`${o3} μg/m3`}</td>
+        <tbody className={styles.tbody}>
+          <tr className={styles.tr}>
+            <td className={styles.td}>Ozone:</td>
+            <td className={styles.td}>{`${o3} μg/m3`}</td>
           </tr>
-          <tr>
-            <td>Particulates PM2.5:</td>
-            <td>{`${pm25} μg/m3`}</td>
+          <tr className={styles.tr}>
+            <td className={styles.td}>Particulates PM2.5:</td>
+            <td className={styles.td}>{`${pm25} μg/m3`}</td>
           </tr>
-          <tr>
-            <td>Particulates PM10:</td>
-            <td>{`${pm10} μg/m3`}</td>
+          <tr className={styles.tr}>
+            <td className={styles.td}>Particulates PM10:</td>
+            <td className={styles.td}>{`${pm10} μg/m3`}</td>
           </tr>
-          <tr>
-            <td>Sulphur Dioxide:</td>
-            <td>{`${so2} μg/m3`}</td>
+          <tr className={styles.tr}>
+            <td className={styles.td}>Sulphur Dioxide:</td>
+            <td className={styles.td}>{`${so2} μg/m3`}</td>
           </tr>
         </tbody>
       </table>

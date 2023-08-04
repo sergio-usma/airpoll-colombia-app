@@ -4,13 +4,13 @@ import styles from '../styles/header.module.css';
 
 export default function Header() {
   return (
-    <header className={styles}>
+    <header className={styles.header}>
       <div className={styles.container}>
         <NavLink to="/">
           <ChevroLeft />
         </NavLink>
         <h1>airpoll</h1>
-        <nav>
+        <nav className={styles.nav}>
           <Microphone />
           <Settings />
         </nav>
