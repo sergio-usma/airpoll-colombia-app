@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import { BsFillPeopleFill } from 'react-icons/bs';
+import PropTypes from 'prop-types';
 import locationImg from '../assets/locations/santa_marta/santamarta_col_sm.jpg';
 import styles from '../styles/locations.module.css';
 
