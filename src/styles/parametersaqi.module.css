@@ -50,18 +50,26 @@
 
 .city__aqi {
   width: 100%;
-  padding: 1rem 1.5rem;
-  border-radius: 0.5rem;
-  background-color: #fff;
-  color: #ec4c8a;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #ec407a;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 1em 2em;
   margin: 0.5rem auto 2.5rem auto;
+  border-radius: 4px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
+  transition:
+    transform ease-in 0.1s,
+    box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+
+.city__aqi:active {
+  transform: scale(0.9);
+  color: #fff;
+  background-color: #ec407a;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
 }
 
 @media (max-width: 600px) {
