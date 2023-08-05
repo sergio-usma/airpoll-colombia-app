@@ -13,6 +13,12 @@
   color: #fff;
 }
 
+.header_title {
+  font-size: 2.5rem;
+  font-family: 'Kaushan Script', cursive !important;
+  text-transform: capitalize;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
