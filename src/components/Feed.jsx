@@ -32,7 +32,7 @@ export default function Feed() {
           placeholder="Enter a city in Colombia"
           onChange={(e) => setQuery(e.target.value)}
         />
-        <h2 className={styles.filter}>Air Pollution Index by City</h2>
+        <h2 className={styles.filter}>Air Pollution Index</h2>
       </div>
       <div className={styles.wrapper}>
         {filter.map((location) => (

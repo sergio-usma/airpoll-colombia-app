@@ -52,7 +52,7 @@
 @media (max-width: 600px) {
   .input {
     position: absolute;
-    bottom: 0.6rem;
+    bottom: 0.7rem;
     right: 1rem;
     width: calc(50% - 2rem);
   }
