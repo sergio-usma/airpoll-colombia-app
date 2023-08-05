@@ -11,6 +11,14 @@
   position: relative;
 }
 
+.card__icon {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  font-size: 1.8rem;
+  z-index: 2;
+}
+
 .card__details {
   display: flex;
   flex-direction: column;
@@ -29,12 +37,12 @@
 }
 
 .card__title {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .card__subtitle {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 

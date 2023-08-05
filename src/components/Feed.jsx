@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import styles from '../styles/feed.module.css';
 import Locations from './Locations';
+import styles from '../styles/feed.module.css';
 
 export default function Feed() {
   const [query, setQuery] = useState('');
@@ -20,16 +20,19 @@ export default function Feed() {
   return (
     <>
       <div className={styles.hero_container}>
-        <img className={styles.image_banner} src="https://i.postimg.cc/zGPqCgcN/colombia.jpg" alt="Colombia banner" />
-        <div className={styles.searchbar}>
-          <input
-            className={styles.input}
-            type="search"
-            value={query}
-            placeholder="Enter a city in Colombia"
-            onChange={(e) => setQuery(e.target.value)}
-          />
-        </div>
+        <img
+          className={styles.img_banner}
+          src="https://i.postimg.cc/zGPqCgcN/colombia.jpg"
+          alt="Colombia banner"
+        />
+        <input
+          className={styles.input}
+          type="search"
+          value={query}
+          placeholder="Enter a city in Colombia"
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        <h2 className={styles.filter}>Air Pollution Index</h2>
       </div>
       <div className={styles.wrapper}>
         {filter.map((location) => (
