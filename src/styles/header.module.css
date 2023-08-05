@@ -1,0 +1,38 @@
+.header {
+  background-color: #fa4f90;
+}
+
+.container {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 1.5rem 1.2rem 1.5rem;
+  background: transparent;
+  color: #fff;
+}
+
+.header_title {
+  position: absolute;
+  top: calc(50% - 2rem);
+  left: calc(50% - 3.5rem);
+  font-size: 2.5rem;
+  font-family: 'Kaushan Script', cursive !important;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 600px) {
+  .header_title {
+    text-shadow: 2px 1px 2px #000;
+  }
+}

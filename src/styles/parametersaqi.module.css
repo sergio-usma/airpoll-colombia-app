@@ -1,0 +1,89 @@
+.table {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4%;
+  margin: 1rem auto 1.5rem auto;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.tbody {
+  flex-basis: 48%;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.tr {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1rem;
+}
+
+.tr:nth-child(even) {
+  background-color: #f47fa6;
+}
+
+.tr:nth-child(odd) {
+  background-color: #ec407a;
+}
+
+.tr:hover {
+  background-color: #d81b60;
+}
+
+.td {
+  padding: 0.2rem 0;
+}
+
+.td:nth-child(even) {
+  flex-basis: 35%;
+  text-align: right;
+}
+
+.td:nth-child(odd) {
+  flex-basis: 65%;
+}
+
+.city__aqi {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #ec407a;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 1em 2em;
+  margin: 0.5rem auto 2.5rem auto;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition:
+    transform ease-in 0.1s,
+    box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+
+.city__aqi:active {
+  transform: scale(0.9);
+  color: #fff;
+  background-color: #ec407a;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+}
+
+@media (max-width: 600px) {
+  .table {
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  .tbody {
+    flex-basis: 100%;
+    box-shadow: none;
+  }
+
+  .td {
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+  }
+}

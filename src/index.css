@@ -1,3 +1,8 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
@@ -6,6 +11,11 @@
   box-sizing: inherit;
 }
 
-html {
-  font-size: 62.5%;
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #fa4f90;
+  font-family: 'Ubuntu', sans-serif;
 }
