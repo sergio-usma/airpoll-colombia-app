@@ -2,7 +2,6 @@ import { FaMapLocationDot } from 'react-icons/fa6';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect, useRef } from 'react';
-import hero from '../assets/locations/santa_marta/santamarta_col_sm.jpg';
 import styles from '../styles/city.module.css';
 import { getCityDetail } from '../redux/getCitiesSlice';
 import ParametersAQI from '../components/ParametersAQI';
@@ -30,7 +29,7 @@ export default function City() {
         <p className={styles.state__name}>{`${currentCity[0].department}, Colombia`}</p>
         <img
           className={styles}
-          src={hero}
+          src={currentCity[0].image}
           alt={`This is a landscape from ${currentCity[0].department}, Colombia`}
         />
 
