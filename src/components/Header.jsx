@@ -9,7 +9,7 @@ export default function Header() {
         <NavLink to="/">
           <ChevroLeft />
         </NavLink>
-        <h1>airpoll</h1>
+        <h1 className={styles.header_title}>airpoll</h1>
         <nav className={styles.nav}>
           <Microphone />
           <Settings />

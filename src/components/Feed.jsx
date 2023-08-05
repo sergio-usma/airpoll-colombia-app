@@ -19,13 +19,17 @@ export default function Feed() {
 
   return (
     <>
-      <div className={styles.searchbar}>
-        <input
-          type="search"
-          value={query}
-          placeholder="Enter a city in Colombia"
-          onChange={(e) => setQuery(e.target.value)}
-        />
+      <div className={styles.hero_container}>
+        <img className={styles.image_banner} src="https://i.postimg.cc/zGPqCgcN/colombia.jpg" alt="Colombia banner" />
+        <div className={styles.searchbar}>
+          <input
+            className={styles.input}
+            type="search"
+            value={query}
+            placeholder="Enter a city in Colombia"
+            onChange={(e) => setQuery(e.target.value)}
+          />
+        </div>
       </div>
       <div className={styles.wrapper}>
         {filter.map((location) => (
@@ -35,6 +39,7 @@ export default function Feed() {
             state={location.department}
             population={location.capital_population}
             onClick={() => handleClick(location.capital)}
+            image={location.image}
           />
         ))}
       </div>
