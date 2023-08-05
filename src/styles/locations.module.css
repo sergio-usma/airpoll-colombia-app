@@ -37,11 +37,13 @@
 }
 
 .card__title {
+  text-align: right;
   font-size: 2rem;
   font-weight: 700;
 }
 
 .card__subtitle {
+  text-align: right;
   font-size: 1.6rem;
   font-weight: 400;
 }
