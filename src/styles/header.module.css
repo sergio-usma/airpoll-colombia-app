@@ -17,6 +17,7 @@
   font-size: 2.5rem;
   font-family: 'Kaushan Script', cursive !important;
   text-transform: capitalize;
+  text-shadow: 2px 2px 4px #000;
 }
 
 .nav {
