@@ -35,6 +35,7 @@ export default function Feed() {
             state={location.department}
             population={location.capital_population}
             onClick={() => handleClick(location.capital)}
+            image={location.image}
           />
         ))}
       </div>
