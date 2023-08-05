@@ -15,10 +15,10 @@ test('it renders Feed component and filters locations', () => {
       details: {
         cities: [
           {
-            id: 1, capital: 'Bogotá', department: 'Bogotá', capital_population: 1000000,
+            id: 1, capital: 'Bogotá', department: 'Bogotá', capital_population: 1000000, image: 'https://i.postimg.cc/BvL4MnrK/bogota.jpg',
           },
           {
-            id: 2, capital: 'Medellín', department: 'Antioquia', capital_population: 2000000,
+            id: 2, capital: 'Medellín', department: 'Antioquia', capital_population: 2000000, image: 'https://i.postimg.cc/6q9sJWmz/medellin.jpg',
           },
         ],
       },
