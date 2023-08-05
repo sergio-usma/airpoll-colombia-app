@@ -175,7 +175,7 @@ If you like this project, please consider supporting us! Your support helps us t
 
 ## 🙏 Acknowledgments <a id="acknowledgements"></a>
 
-I would like to thank Microverse for this amazing opportunity to learn with them and for the support they give me to make this possible.
+I would like to thank Microverse for this amazing opportunity to learn with them and for the support they give me to make this possible. Besides I want to recognize the [Original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 <p align='right'>(<a href="#readme-top">back to top</a>)</p>
 
