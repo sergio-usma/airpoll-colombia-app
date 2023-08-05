@@ -70,6 +70,7 @@ The following features are available:
 ## 🚀 Live Demo <a id="live-demo"></a>
 
 - [Click here](https://airpollution-colombia.netlify.app/) to see the live demo on Netlify.com
+- [Click here](https://www.loom.com/share/9c56c18a935d4327810e737f6ff9e979?sid=fb54579c-d596-4094-9876-5717154ac6ec) to see a video presentation of the project
 
 <p align='right'>(<a href="#readme-top">back to top</a>)</p>
 
