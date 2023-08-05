@@ -10,7 +10,6 @@ const initialState = {
 
 const API_KEY = 'e693c83d8c1a055a2c4f3d603c80717d';
 
-// Get city AQI Data from the API
 export const getCityDetail = createAsyncThunk('details', async (coords) => {
   try {
     const response = await axios.get(
