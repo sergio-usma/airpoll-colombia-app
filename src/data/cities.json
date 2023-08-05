@@ -216,7 +216,7 @@
     "capital_area": 3168,
     "latitude": "11.4764",
     "longitude": "-72.2896",
-    "image":"https://i.postimg.cc/4NLDqTbb/neiva.jpg"
+    "image":"https://i.postimg.cc/SRZvBW8N/riohacha.jpg"
   },
   {
     "id": 19,
@@ -228,7 +228,7 @@
     "capital_area": 2075,
     "latitude": "11.2404",
     "longitude": "-74.2110",
-    "image":"https://i.postimg.cc/4NLDqTbb/neiva.jpg"
+    "image":"https://i.postimg.cc/QdKyzKMh/santamarta.jpg"
   },
   {
     "id": 20,
@@ -324,7 +324,7 @@
     "capital_area": 1622,
     "latitude": "7.1172",
     "longitude": "-73.1256",
-    "image":".https://i.postimg.cc/QtcsZnxN/bucaramanga.jpg"
+    "image":"https://i.postimg.cc/QtcsZnxN/bucaramanga.jpg"
   },
   {
     "id": 28,
@@ -386,5 +386,17 @@
     "latitude": "5.9828",
     "longitude": "-69.6183",
     "image":"https://i.postimg.cc/wvpZLxgH/puerto-careno.jpg"
+  },
+  {
+    "id": 33,
+    "department": "Bolívar",
+    "population": 30589,
+    "department_area": 24160,
+    "capital": "Mompox",
+    "capital_population": 30589,
+    "capital_area": 6.48,
+    "latitude": 8.9833,
+    "longitude": -74.1833,
+    "image": "https://i.postimg.cc/Y0p0Sm9W/mompox.jpg"
   }
 ]
