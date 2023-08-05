@@ -55,8 +55,8 @@
   right: 0;
   padding: 0.6rem 1rem;
   background-color: #fff;
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(189, 189, 189, 0.3);
+  border-bottom: 1px solid rgba(189, 189, 189, 0.3);
   border-radius: 0 0 0 1rem;
   color: #ec4c8a;
   font-family: 'Kaushan Script', cursive !important;
@@ -64,7 +64,7 @@
   font-weight: 900;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   text-align: center;
-  box-shadow: 0 -1rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 1rem -1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 .city__image img {
