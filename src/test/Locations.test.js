@@ -12,6 +12,7 @@ test('it renders Locations component', () => {
       state="Magdalena"
       population={500000}
       onClick={mockOnClick}
+      image="https://i.postimg.cc/QdKyzKMh/santamarta.jpg"
     />,
   );
 
@@ -23,6 +24,9 @@ test('it renders Locations component', () => {
 
   const stateSubtitle = screen.getByText('Magdalena');
   expect(stateSubtitle).toBeInTheDocument();
+
+  const stateImage = screen.getByAltText('This is a city');
+  expect(stateImage).toBeInTheDocument();
 
   userEvent.click(screen.getByRole('presentation'));
   expect(mockOnClick).toHaveBeenCalled();
