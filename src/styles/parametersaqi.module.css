@@ -8,11 +8,11 @@
   margin: 1rem auto 1.5rem auto;
   color: #fff;
   font-size: 1.6rem;
-  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .tbody {
   flex-basis: 48%;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .tr {
@@ -73,8 +73,13 @@
 }
 
 @media (max-width: 600px) {
+  .table {
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
   .tbody {
     flex-basis: 100%;
+    box-shadow: none;
   }
 
   .td {
