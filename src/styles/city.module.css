@@ -46,7 +46,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-radius: 1rem 0 1rem 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
 }
 
 .state__name {
@@ -57,12 +57,12 @@
   background-color: #fff;
   border-left: 1px solid rgba(189, 189, 189, 0.3);
   border-bottom: 1px solid rgba(189, 189, 189, 0.3);
-  border-radius: 0 0 0 1rem;
+  border-radius: 0 1rem 0 1rem;
   color: #ec4c8a;
   font-family: 'Kaushan Script', cursive !important;
   font-size: 1.6rem;
   font-weight: 900;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 1px rgba(189, 189, 189, 0.3);
   text-align: center;
   box-shadow: 1rem -1rem 2rem rgba(0, 0, 0, 0.3);
 }
@@ -104,5 +104,6 @@
 
   .state__name {
     font-size: 1.4rem;
+    text-shadow: 1px 1px 1px rgba(189, 189, 189, 0.3);
   }
 }
