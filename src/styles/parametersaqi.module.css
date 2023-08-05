@@ -8,6 +8,7 @@
   margin: 1rem auto 1.5rem auto;
   color: #fff;
   font-size: 1.6rem;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .tbody {
@@ -23,6 +24,10 @@
 }
 
 .tr:nth-child(even) {
+  background-color: #f47fa6;
+}
+
+.tr:nth-child(odd) {
   background-color: #ec407a;
 }
 
@@ -56,6 +61,7 @@
   margin: 0.5rem auto 2.5rem auto;
   border: none;
   cursor: pointer;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 600px) {
