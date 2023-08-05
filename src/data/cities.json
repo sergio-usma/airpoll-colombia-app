@@ -8,7 +8,8 @@
     "capital_population": 52331,
     "capital_area": 655,
     "latitude": "-4.0925",
-    "longitude": "-69.9358"
+    "longitude": "-69.9358",
+    "image":"https://i.postimg.cc/NMvqD783/leticia.jpg"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "capital_population": 2569000,
     "capital_area": 381,
     "latitude": "6.2682",
-    "longitude": "-75.5945"
+    "longitude": "-75.5945",
+    "image":"https://i.postimg.cc/6q9sJWmz/medellin.jpg"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "capital_population": 78453,
     "capital_area": 320,
     "latitude": "7.0760",
-    "longitude": "-70.7105"
+    "longitude": "-70.7105",
+    "image":"https://i.postimg.cc/hjm4PtMB/arauca.jpg"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "capital_population": 1233366,
     "capital_area": 154,
     "latitude": "10.9639",
-    "longitude": "-74.7964"
+    "longitude": "-74.7964",
+    "image":"https://i.postimg.cc/Nj0g24bb/barranquilla.jpg"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "capital_population": 952024,
     "capital_area": 572,
     "latitude": "10.3997",
-    "longitude": "-75.5144"
+    "longitude": "-75.5144",
+    "image":"https://i.postimg.cc/nrZxFYC4/cartagena.jpg"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "capital_population": 181407,
     "capital_area": 109,
     "latitude": "5.5353",
-    "longitude": "-73.3673"
+    "longitude": "-73.3673",
+    "image":"https://i.postimg.cc/cJQ5xqYz/tunja.jpg"
   },
   {
     "id": 7,
@@ -74,7 +80,9 @@
     "capital_population": 439963,
     "capital_area": 441,
     "latitude": "5.0689",
-    "longitude": "-75.5174"
+    "longitude": "-75.5174",
+    "image":"https://i.postimg.cc/zBwmcb0V/manizales.jpg"
+
   },
   {
     "id": 8,
@@ -85,7 +93,9 @@
     "capital_population": 173750,
     "capital_area": 4959,
     "latitude": "1.6151",
-    "longitude": "-75.6114"
+    "longitude": "-75.6114",
+    "image":"https://i.postimg.cc/jS9rwrDd/florencia.jpg"
+
   },
   {
     "id": 9,
@@ -96,7 +106,9 @@
     "capital_population": 183277,
     "capital_area": 2084,
     "latitude": "5.3302",
-    "longitude": "-72.4132"
+    "longitude": "-72.4132",
+    "image":"https://i.postimg.cc/L5sy3n7d/yopal.jpg"
+
   },
   {
     "id": 10,
@@ -107,7 +119,8 @@
     "capital_population": 321991,
     "capital_area": 512,
     "latitude": "2.4489",
-    "longitude": "-76.5949"
+    "longitude": "-76.5949",
+    "image":"https://i.postimg.cc/HL5Fr8GB/popayan.jpg"
   },
   {
     "id": 11,
@@ -118,7 +131,8 @@
     "capital_population": 488997,
     "capital_area": 483,
     "latitude": "10.4632",
-    "longitude": "-73.2532"
+    "longitude": "-73.2532",
+    "image":"https://i.postimg.cc/26GcW40F/valledupar.jpg"
   },
   {
     "id": 12,
@@ -129,7 +143,8 @@
     "capital_population": 135629,
     "capital_area": 46,
     "latitude": "5.6940",
-    "longitude": "-76.6619"
+    "longitude": "-76.6619",
+    "image":"https://i.postimg.cc/kGMHYj2p/quibdo.jpg"
   },
   {
     "id": 13,
@@ -140,7 +155,8 @@
     "capital_population": 330594,
     "capital_area": 371,
     "latitude": "8.7479",
-    "longitude": "-75.8813"
+    "longitude": "-75.8813",
+    "image":"https://i.postimg.cc/nch83L7h/monteria.jpg"
   },
   {
     "id": 14,
@@ -151,7 +167,8 @@
     "capital_population": 7768272,
     "capital_area": 1587,
     "latitude": "4.6483",
-    "longitude": "-74.2479"
+    "longitude": "-74.2479",
+    "image":"https://i.postimg.cc/BvL4MnrK/bogota.jpg"
   },
   {
     "id": 15,
@@ -162,7 +179,8 @@
     "capital_population": 15007,
     "capital_area": 11992,
     "latitude": "3.8656",
-    "longitude": "-67.9239"
+    "longitude": "-67.9239",
+    "image":"https://i.postimg.cc/Hx9K2GkM/puerto-inirida.jpg"
   },
   {
     "id": 16,
@@ -173,7 +191,8 @@
     "capital_population": 43323,
     "capital_area": 39172,
     "latitude": "2.5708",
-    "longitude": "-72.6453"
+    "longitude": "-72.6453",
+    "image":"https://i.postimg.cc/jdF1v4tM/san-jose.jpg"
   },
   {
     "id": 17,
@@ -184,7 +203,8 @@
     "capital_population": 393308,
     "capital_area": 153,
     "latitude": "2.9273",
-    "longitude": "-75.2819"
+    "longitude": "-75.2819",
+    "image":"https://i.postimg.cc/4NLDqTbb/neiva.jpg"
   },
   {
     "id": 18,
@@ -195,7 +215,8 @@
     "capital_population": 301571,
     "capital_area": 3168,
     "latitude": "11.4764",
-    "longitude": "-72.2896"
+    "longitude": "-72.2896",
+    "image":"https://i.postimg.cc/4NLDqTbb/neiva.jpg"
   },
   {
     "id": 19,
@@ -206,7 +227,8 @@
     "capital_population": 482546,
     "capital_area": 2075,
     "latitude": "11.2404",
-    "longitude": "-74.2110"
+    "longitude": "-74.2110",
+    "image":"https://i.postimg.cc/4NLDqTbb/neiva.jpg"
   },
   {
     "id": 20,
@@ -217,7 +239,8 @@
     "capital_population": 495200,
     "capital_area": 1195,
     "latitude": "4.1536",
-    "longitude": "-73.6352"
+    "longitude": "-73.6352",
+    "image":"https://i.postimg.cc/gJmtrMH2/villavicencio.jpg"
   },
   {
     "id": 21,
@@ -228,7 +251,8 @@
     "capital_population": 392939,
     "capital_area": 1175,
     "latitude": "1.2136",
-    "longitude": "-77.2811"
+    "longitude": "-77.2811",
+    "image":"https://i.postimg.cc/QdF2rnfL/pasto.jpg"
   },
   {
     "id": 22,
@@ -239,7 +263,8 @@
     "capital_population": 747809,
     "capital_area": 599,
     "latitude": "7.9219",
-    "longitude": "-72.5117"
+    "longitude": "-72.5117",
+    "image":"https://i.postimg.cc/1zkPTZSY/cucuta.jpg"
   },
   {
     "id": 23,
@@ -250,7 +275,8 @@
     "capital_population": 57518,
     "capital_area": 4073,
     "latitude": "1.1483",
-    "longitude": "-76.6444"
+    "longitude": "-76.6444",
+    "image":"https://i.postimg.cc/FzGM9ttv/mocoa.jpg"
   },
   {
     "id": 24,
@@ -261,7 +287,8 @@
     "capital_population": 310432,
     "capital_area": 111,
     "latitude": "4.4610",
-    "longitude": "-75.6674"
+    "longitude": "-75.6674",
+    "image":"https://i.postimg.cc/PrTfThwg/armenia.jpg"
   },
   {
     "id": 25,
@@ -272,7 +299,8 @@
     "capital_population": 469864,
     "capital_area": 608,
     "latitude": "4.8087",
-    "longitude": "-75.6906"
+    "longitude": "-75.6906",
+    "image":"https://i.postimg.cc/jSBGqQ1D/pereira.jpg"
   },
   {
     "id": 26,
@@ -283,7 +311,8 @@
     "capital_population": 58257,
     "capital_area": 26,
     "latitude": "12.5567",
-    "longitude": "-81.7185"
+    "longitude": "-81.7185",
+    "image":"https://i.postimg.cc/15tTpjhg/sai.jpg"
   },
   {
     "id": 27,
@@ -294,7 +323,8 @@
     "capital_population": 533685,
     "capital_area": 1622,
     "latitude": "7.1172",
-    "longitude": "-73.1256"
+    "longitude": "-73.1256",
+    "image":".https://i.postimg.cc/QtcsZnxN/bucaramanga.jpg"
   },
   {
     "id": 28,
@@ -305,7 +335,8 @@
     "capital_population": 292893,
     "capital_area": 279,
     "latitude": "9.3087",
-    "longitude": "-75.3959"
+    "longitude": "-75.3959",
+    "image":"https://i.postimg.cc/N0hzvGyT/sincelejo.jpg"
   },
   {
     "id": 29,
@@ -316,7 +347,9 @@
     "capital_population": 548618,
     "capital_area": 1435,
     "latitude": "4.4389",
-    "longitude": "-75.2322"
+    "longitude": "-75.2322",
+    "image":"https://i.postimg.cc/SKMbct9L/ibague.jpg"
+
   },
   {
     "id": 30,
@@ -327,7 +360,8 @@
     "capital_population": 2400655,
     "capital_area": 619,
     "latitude": "3.4215",
-    "longitude": "-76.5205"
+    "longitude": "-76.5205",
+    "image":"https://i.postimg.cc/Bbg0XLKd/cali.jpg"
   },
   {
     "id": 31,
@@ -338,7 +372,8 @@
     "capital_population": 15483,
     "capital_area": 43050,
     "latitude": "1.1680",
-    "longitude": "-70.2160"
+    "longitude": "-70.2160",
+    "image":"https://i.postimg.cc/nVkbKmXW/mitu.jpg"
   },
   {
     "id": 32,
@@ -349,6 +384,7 @@
     "capital_population": 19572,
     "capital_area": 12377,
     "latitude": "5.9828",
-    "longitude": "-69.6183"
+    "longitude": "-69.6183",
+    "image":"https://i.postimg.cc/wvpZLxgH/puerto-careno.jpg"
   }
 ]
